@@ -1,0 +1,46 @@
+OOP stands for Object-Oriented Programming.
+OOP is faster and easier to execute
+OOP provides a clear structure for the programs
+OOP helps to keep the PHP code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+OOP makes it possible to create full reusable applications with less code and shorter development time
+The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. 
+A class is defined by using the class keyword, followed by the name of the class and a pair of curly braces ({}). All its properties and methods go inside the braces
+Objects of a class are created using the new keyword.
+The $this keyword refers to the current object, and is only available inside methods.
+You can use the instanceof keyword to check if an object belongs to a specific class
+A constructor allows you to initialize an object's properties upon creation of the object.
+A destructor is called when the object is destructed or the script is stopped or exited.
+Properties and methods can have access modifiers which control where they can be accessed.
+public - the property or method can be accessed from everywhere. This is default
+protected - the property or method can be accessed within the class and by classes derived from that class
+private - the property or method can ONLY be accessed within the class
+Inheritance in OOP = When a class derives from another class.
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+An inherited class is defined by using the extends keyword.
+The final keyword can be used to prevent class inheritance or to prevent method overriding.
+Class constants can be useful if you need to define some constant data within a class.
+A class constant is declared inside a class with the const keyword.
+A constant cannot be changed once it is declared.
+Class constants are case-sensitive. However, it is recommended to name the constants in all uppercase letters.
+We can access a constant from outside the class by using the class name followed by the scope resolution operator (::) followed by the constant name
+Or, we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name
+Or, we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name
+Interfaces allow you to specify what methods a class should implement.
+When one or more classes use the same interface, it is referred to as "polymorphism".
+To implement an interface, a class must use the implements keyword.
+Traits are used to declare methods that can be used in multiple classes. 
+To use a trait in a class, use the use keyword
+Static methods can be called directly - without creating an instance of the class first.
+To call a static method from a child class, use the parent keyword inside the child class.
+Static properties can be called directly - without creating an instance of a class.
+Namespaces are declared at the beginning of a file using the namespace keyword
+An iterable is any value which can be looped through with a foreach() loop.
+The iterable keyword can be used as a data type of a function argument or as the return type of a function
+The iterable keyword can be used as a data type of a function argument or as the return type of a function
+The iterable keyword can be used as a data type of a function argument or as the return type of a function
+Any object that implements the Iterator interface can be used as an argument of a function that requires an iterable.
+current() - Returns the element that the pointer is currently pointing to. It can be any data type
+key() Returns the key associated with the current element in the list. It can only be an integer, float, boolean or string
+next() Moves the pointer to the next element in the list
+rewind() Moves the pointer to the first element in the list
+valid() If the internal pointer is not pointing to any element (for example, if next() was called at the end of the list), this should return false. It returns true in any other case
